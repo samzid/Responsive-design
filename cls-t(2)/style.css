@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+   
+}
+header,
+.mywork,
+.Subscribe
+{
+    background:#23232e ;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+ h2{
+    font-size:50px;
+    text-transform: uppercase;
+}
+header  p{
+    line-height: 22px;
+    
+}
+header span{
+    border: 2px solid white;
+    padding: 10px 13px;
+    border-radius: 50%;
+    margin-top: 50px;
+    display: inline-block;
+    
+}
+.sk{
+    padding: 25px  25%;
+
+}
+.what-i-do,
+.myphotograpy{
+    
+    text-align: center;
+    overflow: hidden;
+    
+}
+.what-i-do >p{
+    font-size: 24px;
+}
+.col{
+    width: 31.33%;
+    margin: 0 1%;
+    float:left;
+    text-align: left;
+}
+.mywork{
+    overflow: hidden;
+}
+.mywork .manue{
+    margin-bottom: 25px;
+}
+.mywork .manue a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 15px;
+    
+}
+button{
+    padding: 12px 22px;
+    border: none;
+    border-radius:5px ;
+    font-size: 18px;
+    background: #7b77c9;
+    color: white;
+}
+.mywork .manue a:hover{
+    border-bottom: 2px solid red;
+}
+.mywork .col{
+    text-align: center;
+}
+.col img{
+    width: 100%;
+}
+.Subscribe i{
+    font-size: 50px;
+}
+input{
+    padding: 12px 22px;
+    border: none;
+    border-radius:5px ;
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+}
+footer{
+    padding: 25px 0;
+    text-align: center;
+
+}
+footer i{
+    color: gray;
+    padding: 15px;
+    font-size: 25px;
+    
+   
+
+}
+@media all and (max-width:500px) {
+    .col{
+        
+        width: 98%;
+    }
+    h2{
+        font-size: 40;
+    }
+
+    .what-i-do >p{
+        font-size: 20px;
+        text-align: justify;
+    }
+    
+}
+
+
+
+@media all and (max-width:768px) {
+    .sk{
+        padding: 15px 10%;
+    }
+}
+
